@@ -5,7 +5,7 @@ let place = prompt("A place:");
 let verb = prompt("An action:");
 let noun1 = prompt("A noun:");
 
-function makeCard () {
+function makeCard() {
 	console.log("Dear " + name + ",");
 	console.log("You are as " + adjective + " as an " + noun + ".");
 	console.log("I hope " + place + " is everything you expected.");
@@ -13,10 +13,9 @@ function makeCard () {
 	console.log("Happy birthday from the generator.");
 }
 
-makeCard ();
-makeCard ();
+setInterval(makeCard,2000);
 
-function thankYou () {
+function thankYou() {
 	console.log("I love you and thank you for all the " + noun1 + " we shared.");
 }	
 
