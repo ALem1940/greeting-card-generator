@@ -7,6 +7,7 @@ let closings = [
 	"You are a legend.",
 	"Stay golden.",
 	"Signs point to awesome.",
+	"Is life really like a box of chocolates?";
 ];
 
 function randomNumber(a, b) {
