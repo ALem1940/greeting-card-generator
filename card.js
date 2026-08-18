@@ -9,7 +9,7 @@ function makeCard() {
 	let friendName = nameInput.value;
 	let adjective = adjectiveInput.value;
 	let noun = nounInput.value;
-	cardText.textContent = "Dear " + friendName + ", you are as " + adjective + " as a " + noun + "Happy birthday to you from the generator.";
+	cardText.textContent = "Dear " + friendName + ", you are always as " + adjective + " as a " + noun + "Happy birthday to you from the generator.";
 
 }
 
